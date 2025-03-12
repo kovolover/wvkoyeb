@@ -1,0 +1,5 @@
+Flask
+pywidevine
+requests
+tls_client
+typing_extensions
