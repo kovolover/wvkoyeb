@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 ENV FLASK_APP=main.py
 
 # Expose port 5000
-EXPOSE 5000
+EXPOSE 8000
 
 # Define the entry point for the container
 CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
