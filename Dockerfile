@@ -13,8 +13,8 @@ RUN pip install -r requirements.txt
 # Set environment variable for Flask app
 ENV FLASK_APP=main.py
 
-# Expose port 5000
-EXPOSE 5000
+# Expose port 8000
+EXPOSE 8000
 
 # Define the entry point for the container
-CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
